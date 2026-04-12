@@ -1,0 +1,8 @@
+,Top-1,Top-5 Best,Top-5 Mean±Std,Note
+Rule-Based,0.2641,-,-,Majority crop per season (no ML/fuzzy)
+Random Forest,0.4718,0.9155,-,"Random Forest (100 trees, India-trained)"
+Gradient Boosting,0.4754,0.9331,-,"Gradient Boosting (XGBoost-style, India-trained)"
+Fuzzy (default),-,0.8556,0.8556±0.0000,"Default FIS, 8 inputs, 27 params"
+Fuzzy + GA,-,0.9085,0.8894±0.0121,"BO-tuned GA, 5 seeds"
+Fuzzy + PSO,-,0.8944,0.8845±0.0061,"BO-tuned PSO, 5 seeds"
+Fuzzy + QPSO (Ours),-,0.9155,0.9099±0.0028,"BO-tuned QPSO, warm-start from GA, 5 seeds"

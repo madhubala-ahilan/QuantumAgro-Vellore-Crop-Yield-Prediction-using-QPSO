@@ -1,0 +1,7 @@
+,Top-5 Mean,Top-5 Std,Features,Note
+"RF  (Vellore-only, CV)",0.9929,0.0087,8 (all),"5-fold CV, 100 trees"
+"GB  (Vellore-only, CV)",0.9858,0.0133,8 (all),"5-fold CV, 100 trees"
+Fuzzy (default),0.8556,0.0,8 (all),"Default FIS, no optimisation"
+Fuzzy + GA,0.8894,0.0121,8 (all),"BO-tuned GA, 5 seeds"
+Fuzzy + PSO,0.8845,0.0061,8 (all),"BO-tuned PSO, 5 seeds"
+Fuzzy + QPSO [Ours],0.9099,0.0028,8 (all),"BO-tuned QPSO, warm-start, 5 seeds"

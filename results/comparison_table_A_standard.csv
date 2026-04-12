@@ -1,0 +1,8 @@
+,Top-1,Top-5,Mean+/-Std,Train rows
+Rule-Based,0.2641,-,-,402K
+RF  (India-trained),0.4718,0.9155,-,402K
+GB  (India-trained),0.4754,0.9331,-,402K
+Fuzzy (default),-,0.8556,0.8556+/-0.0000,284
+Fuzzy + GA,-,0.9085,0.8894+/-0.0121,284
+Fuzzy + PSO,-,0.8944,0.8845+/-0.0061,284
+Fuzzy + QPSO [Ours],-,0.9155,0.9099+/-0.0028,284
